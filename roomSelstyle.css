@@ -1,0 +1,124 @@
+body{
+    background-color: #031321;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-top: 340px;
+    text-align: center;
+  }
+  #exit{
+    position: absolute;
+    bottom: 0;
+    right: 0 ;
+    background-color: #031321;
+    font-weight: bold;
+    display: inline-block;
+    /* padding: 15px 30px; */
+    margin-top: 30px;
+    padding: 9px;
+    align-items: center;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  #exit:hover{
+    cursor: pointer;
+    color: black;
+    margin: 10px;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
+  }
+  #crRoom{
+    position: relative;
+    background-color: #031321;
+    font-weight: bold;
+    display: inline-block;
+    /* padding: 15px 30px; */
+    margin-top: 30px;
+    padding: 9px;
+    align-items: center;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  #crRoom:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
+    /* transition-delay: 1s; */
+  }
+  #jrRoom:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
+    /* transition-delay: 1s; */
+  }
+  #jrRoom{
+  margin: 20px;
+  position: relative;
+  background-color: #031321;
+  font-weight: bold;
+  display: inline-block;
+  /* padding: 15px 30px; */
+  margin-top: 30px;
+  padding: 9px;
+  align-items: center;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  border-radius: 20px;
+  }
+
+  #logoImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+  }
+.containerThree{
+  position: absolute;
+  margin-left: 1174px;
+  margin-bottom: 297px;
+  top: 100;
+  right: 500;
+  height: 400px;
+  width: 288px;
+  background-color: red;
+  border-bottom-left-radius: 300px;
+}
+.containerFour{
+position: absolute;
+margin-top: 861px;
+margin-right: 1174px;
+bottom: 100;
+left: 500;
+height: 268px;
+width:298px;
+background-color: red;
+border-top-right-radius: 300px;
+}
+  

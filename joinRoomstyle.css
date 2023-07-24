@@ -1,0 +1,79 @@
+#logoImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+  }
+  body{
+    background-color: #031321;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: white;
+    margin-right: 20px;
+}
+#textbox{
+    align-self: center;
+}
+.container{
+    display: flex;
+    align-self: center;
+    margin-top: 338px;
+}
+#textBox{
+    border-radius: 20px;
+    padding: 10px;
+  }
+  #SubmitButton{    
+    position: relative;
+    background-color: #031321;
+    font-weight: bold;
+    display: inline-block;
+    /* padding: 15px 30px; */
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 9px;
+    align-items: center;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  #SubmitButton:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
+  }
+  .containerThree{
+    position: absolute;
+    margin-left: 1190px;
+    margin-bottom: 297px;
+    top: 100;
+    right: 500;
+    height: 400px;
+    width: 272px;
+    background-color: red;
+    border-bottom-left-radius: 300px;
+  }
+  .containerFour{
+  position: absolute;
+  margin-top: 820px;
+  margin-right: 1174px;
+  bottom: 100;
+  left: 500;
+  height: 268px;
+  width:298px;
+  background-color: red;
+  border-top-right-radius: 300px;
+  }
+    
